@@ -1,5 +1,3 @@
-# Simple python projects
-
 # Welcome!
 
 In this repo I will place simple projects created using Python. 
