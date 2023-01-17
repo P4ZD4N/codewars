@@ -7,8 +7,8 @@ Project of simple interactive dictionary created with Python.
 In dictionary you can:
 <br>
 
-- Add word and definition of this to dictionary,
+- Add word and definition of this word to dictionary,
   <br>
 - Find definition of earlier added word,
   <br>
-- Delete definition of earlier added word,
+- Delete definition of earlier added word.
