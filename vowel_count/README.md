@@ -1,4 +1,4 @@
-# DESCRIPTION:
+# DESCRIPTION
 <br>
 Return the number (count) of vowels in the given string.
 <br>
