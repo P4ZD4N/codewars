@@ -6,5 +6,7 @@ Write a function that takes in a string of one or more words, and returns the sa
 Examples:
 <br><br>
 spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" 
+<br>
 spinWords( "This is a test") => returns "This is a test" 
+<br>
 spinWords( "This is another test" ) => returns "This is rehtona test"
