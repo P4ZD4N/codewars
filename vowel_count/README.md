@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-# DESCRIPTION:
-
-=======
 # DESCRIPTION
->>>>>>> 6d3f57eb9756c12c97f30e8fd52d0a76d9638c4e
+
 <br>
 Return the number (count) of vowels in the given string.
 <br>
