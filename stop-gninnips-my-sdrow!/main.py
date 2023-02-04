@@ -9,6 +9,3 @@ def spin_words(sentence):
             words_with_reversed.append(word)
 
     return ' '.join(map(str, words_with_reversed))
-
-print(spin_words("Hello World!"))
-print(spin_words("Stop spinning my words !"))
