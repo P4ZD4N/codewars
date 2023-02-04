@@ -9,6 +9,3 @@ def get_count(sentence):
             continue
 
     return vowel_counter
-
-print(get_count("Hello World!"))
-print(get_count("Vowel Counter"))
