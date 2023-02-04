@@ -31,9 +31,3 @@ def contains_only_letters(sentence):
         return False
     else:
         return True
-
-print(accum("test"))
-print(accum("TEST"))
-print(accum("Test1"))
-print(accum("Test@"))
-print(accum("Test1@"))
