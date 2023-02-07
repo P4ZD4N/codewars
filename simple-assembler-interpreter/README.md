@@ -30,9 +30,9 @@ We want to create a simple interpreter of assembler which will support the follo
   uninitialized registers.
   <br><br>
   Example
-  <br>
+  <br><br>
   ["mov a 5"; "inc a"; "dec a"; "dec a"; "jnz a -1"; "inc a"]
-  <br
+  <br>
   visualized:
   <br>
   mov a 5
