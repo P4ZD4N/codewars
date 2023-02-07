@@ -1,4 +1,4 @@
-# DESCRIPtion
+# DESCRIPTION
 
 This is the first part of this kata series. Second part is here.
 <br>
