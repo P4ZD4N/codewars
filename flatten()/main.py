@@ -16,4 +16,3 @@ def flatten(*args):
         list_of_elements = list_of_elements_aux.copy()
         list_of_elements_aux.clear()
     return list_of_elements
-print(flatten([[[[[2]]]]], 'a', ['b', 2], 3, None, [3], [2], [[4]]))
