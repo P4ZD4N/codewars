@@ -1,4 +1,4 @@
-def rests(x):
+def find_rests(x):
     list_of_rests = []
     if x != 0 and x >= 16 and 255 >= x:
         while x != 0:
@@ -17,7 +17,7 @@ def rests(x):
             list_of_rests.append(0)
     list_of_rests.reverse()
     return list_of_rests
-def checking(list_of_rests):
+def convert_digit_to_letter(list_of_rests):
     hex_dict = {10: "A", 11: "B", 12: "C", 13: "D", 14: "E", 15: "F"}
     for digit in list_of_rests:
         index_of_digit = list_of_rests.index(digit)
@@ -26,9 +26,9 @@ def checking(list_of_rests):
     return list_of_rests
 def rgb(r, g, b):
         list_of_rests = []
-        list_of_rests.extend(checking(rests(r)))
-        list_of_rests.extend(checking(rests(g)))
-        list_of_rests.extend(checking(rests(b)))
+        list_of_rests.extend(convert_digit_to_letter(find_rests(r)))
+        list_of_rests.extend(convert_digit_to_letter(find_rests(g)))
+        list_of_rests.extend(convert_digit_to_letter(find_rests(b)))
         for digit in list_of_rests:
             index_of_digit = list_of_rests.index(digit)
             if type(digit) == int:
