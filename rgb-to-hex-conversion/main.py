@@ -18,20 +18,11 @@ def rests(x):
     list_of_rests.reverse()
     return list_of_rests
 def checking(list_of_rests):
+    hex_dict = {10: "A", 11: "B", 12: "C", 13: "D", 14: "E", 15: "F"}
     for digit in list_of_rests:
         index_of_digit = list_of_rests.index(digit)
-        if digit == 10:
-            list_of_rests[index_of_digit] = "A"
-        elif digit == 11:
-            list_of_rests[index_of_digit] = "B"
-        elif digit == 12:
-            list_of_rests[index_of_digit] = "C"
-        elif digit == 13:
-            list_of_rests[index_of_digit] = "D"
-        elif digit == 14:
-            list_of_rests[index_of_digit] = "E"
-        elif digit == 15:
-            list_of_rests[index_of_digit] = "F"
+        if digit in hex_dict:
+            list_of_rests[index_of_digit] = hex_dict[digit]
     return list_of_rests
 def rgb(r, g, b):
         list_of_rests = []
