@@ -4,16 +4,14 @@ def to_camel_case(text):
     splitted_text_camel_case = []
     if text != "":
         if splitted_text[0][0].isupper():
-            for word in splitted_text:
-                splitted_text_camel_case.append(word.capitalize())
+            splitted_text_camel_case = [word.capitalize() for word in splitted_text]
         else:
             for word in splitted_text:
                 if splitted_text[0] == word:
                     splitted_text_camel_case.append(word)
-                    continue
                 else:
                     splitted_text_camel_case.append(word.capitalize())
     else:
         return text
-    camel_case_text = "".join(splitted_text_camel_case)
-    return camel_case_text
+    return "".join(splitted_text_camel_case)
+print(to_camel_case("The_Stealth_Warrior"))
