@@ -1,11 +1,7 @@
 def get_count(sentence):
     sentence_to_lowercase = sentence.lower()
     vowel_counter = 0
-
-    for i in sentence_to_lowercase:
-        if (i == "a" or i == "e" or i == "i" or i == "o" or i == "u"):
+    for letter in sentence_to_lowercase:
+        if letter in ["a", "e", "i", "o", "u"]:
             vowel_counter += 1
-        else:
-            continue
-
     return vowel_counter
