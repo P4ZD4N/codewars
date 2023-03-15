@@ -8,4 +8,4 @@ def pyramid(number_of_arrays):
             pyramid.append(auxiliary_array)
         return pyramid
     else:
-        return "error"
+        return "You should give number bigger than or equal to 0!"
