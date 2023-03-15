@@ -20,4 +20,3 @@ def is_valid_IP(IP_address):
             return False
     else:
         return False
-print(is_valid_IP("255.255.255.0"))
