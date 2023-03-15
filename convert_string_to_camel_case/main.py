@@ -14,4 +14,3 @@ def to_camel_case(text):
     else:
         return text
     return "".join(splitted_text_camel_case)
-print(to_camel_case("The_Stealth_Warrior"))
