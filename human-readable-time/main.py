@@ -27,5 +27,3 @@ def make_readable(seconds):
         )
 
         return readable_format
-
-print(make_readable(46474))
