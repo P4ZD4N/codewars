@@ -11,7 +11,7 @@ Maskify.Maskify("64607935616");      // should return "#######5616"
 Maskify.Maskify("1");                // should return "1"
 <br>
 Maskify.Maskify("");                 // should return ""
-<br><br>
+<br>
 Maskify.Maskify("Skippy");                                   // should return "##ippy"
 <br>
 Maskify.Maskify("Nananananananananananananananana Batman!"); // should return "####################################man!"
