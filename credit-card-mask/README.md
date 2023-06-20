@@ -12,6 +12,4 @@ Maskify.Maskify("1");                // should return "1"
 <br>
 Maskify.Maskify("");                 // should return ""
 <br>
-Maskify.Maskify("Skippy");                                   // should return "##ippy"
-<br>
 Maskify.Maskify("Nananananananananananananananana Batman!"); // should return "####################################man!"
