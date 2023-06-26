@@ -1,13 +1,8 @@
-# DESCRIPTION:
+# Description
 
-Create a function named divisors/Divisors that takes an integer n > 1 and returns an array with all of the integer's divisors(except
-<br>
-for 1 and the number itself), from smallest to largest. If the number is prime return the string '(integer) is prime' (null in C#)
-<br>
-(use Either String a in Haskell and Result<Vec<u32>, String> in Rust).
-<br><br>
-Example:
-<br><br>
+Create a function named divisors/Divisors that takes an integer n > 1 and returns an array with all of the integer's divisors(except for 1 and the number itself), from smallest to largest. If the number is prime return the string '(integer) is prime' (null in C#) (use Either String a in Haskell and Result<Vec<u32>, String> in Rust).
+
+# Examples
 divisors(12); #should return [2,3,4,6]
 <br>
 divisors(25); #should return [5]
