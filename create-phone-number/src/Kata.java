@@ -1,5 +1,5 @@
 public class Kata {
-    public static String createPhoneNumber(int[] numbers) {
+    public String createPhoneNumber(int[] numbers) {
         StringBuilder firstPart = new StringBuilder();
         StringBuilder secondPart = new StringBuilder();
         StringBuilder thirdPart = new StringBuilder();
@@ -15,5 +15,4 @@ public class Kata {
         }
         return "(" + firstPart.toString() + ") " + secondPart.toString() + "-" + thirdPart.toString();
     }
-    public static void main(String[] args) {}
 }
