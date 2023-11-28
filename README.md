@@ -1,7 +1,4 @@
 # Welcome! 👋
-<<<<<<< HEAD
 
-In this repo I will place programming tasks from CodeWars solved using Java ☕
-=======
-In this repo I will place programming tasks from CodeWars solved using Python 🐍
->>>>>>> python-codewars/master
+In this repo I will place solutions of programming tasks from CodeWars.
+
